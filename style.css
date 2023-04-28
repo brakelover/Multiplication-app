@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cat_reading_book_498102.jpg/1200px-Cat_reading_book_498102.jpg?20191013155937");
+    background-size: cover;
+    background-position: center;
+    font-family: cursive;
+}
+
+.form{
+    padding: 20px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 10px;
+    background: rgba(223, 236, 106, 0.9);
+}
+
+.input{
+    outline: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    padding: 3px;
+    border: solid 4px rgb(205, 187, 187);
+    color: rgb(105, 122, 64);
+    font-family: cursive;
+}
+
+.input::placeholder{
+    font-family: cursive;
+    color: rgb(163, 183, 116);
+}
+
+.submitBtn{
+    background-color: rgb(205, 187, 187);
+    color: rgb(30, 23, 92);
+    border: none;
+    box-sizing: border-box;
+    width: 98%;
+    padding: 3px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    filter: brightness(.9);
+}
+
+.score{
+    margin-left: 30px;
+}
+
+.container{
+    display: flex;
+}
+
